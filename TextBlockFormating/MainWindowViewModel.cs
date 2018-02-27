@@ -7,7 +7,7 @@ namespace TextBlockFormating
     public class MainWindowViewModel : ViewModelBase
     {
 
-        private List<string> _stringList = new List<string> { "The", "Quick", "Brown", "Fox", "Ran", "Over", "The", "Lazy", "Dog" };
+        private List<string> _stringList = new List<string> { "The", "Quick", "Brown", "Fox", "Jumped", "Over", "The", "Lazy", "Dog" };
 
         int _index = 0;
 
