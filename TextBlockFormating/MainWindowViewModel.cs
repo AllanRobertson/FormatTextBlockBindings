@@ -40,7 +40,7 @@ namespace TextBlockFormating
             {
                 _index = 0;
             }
-            FormattedText = string.Format("<Bold>The next string is</Bold> <Span FontStyle=\"Italic\">{0}</Span>", _stringList[_index++]);
+            FormattedText = string.Format("<Bold>The next string is</Bold> <Italic>{0}</Italic>", _stringList[_index++]);
         }
 
     }
